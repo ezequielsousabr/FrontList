@@ -9,6 +9,24 @@ html,body
 	height: 100%;
 }
 
+#logotipo
+{
+	display: inline-block;
+	position: relative;
+	left: 10%;
+	right: auto;
+	top: 1%;
+	bottom: auto;
+	z-index: 1;
+	margin: 25px auto;
+}
+
+.figure_img
+{
+	border-radius: 50%;
+	width: 150px;
+}
+
 .list_order
 {
 	display: flex;
@@ -62,6 +80,17 @@ p
 
 @media(max-width: 578px)
 {
+	#logotipo
+	{
+		position: relative;
+		display: block;
+		margin: auto auto;
+		left: auto;
+		right: auto;
+		text-align: center;
+		margin-bottom: 25px;
+	}
+
 	.list_order
 	{
 		flex-flow: row wrap;
